@@ -8,7 +8,7 @@
     "overrides": [],
     "globals": {
       "require": true,
-      "$button": true
+      "$button":     true
     },
     "parserOptions": {
       "ecmaVersion": "latest",
