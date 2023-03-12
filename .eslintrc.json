@@ -1,0 +1,18 @@
+{
+    "plugins": ["cypress"],
+    "env": {
+      "cypress/globals": true,
+      "browser": true
+    },
+    "extends": ["eslint:recommended", "plugin:cypress/recommended"],
+    "overrides": [],
+    "globals": {
+      "require": true,
+      "$button": true
+    },
+    "parserOptions": {
+      "ecmaVersion": "latest",
+      "sourceType": "module"
+    },
+    "rules": {}
+  }
