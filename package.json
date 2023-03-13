@@ -4,7 +4,7 @@
   "description": "Project using prettier for code format",
   "main": "index.js",
   "scripts": {
-    "check": "eslint cypress",
+    "check": "prettier --write cypress/**/*.{js,ts,tsx}",
     "fix": "npm run check -- --fix"
   },
   "repository": {
