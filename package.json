@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "check": "prettier --write cypress/**/*.{js,ts,tsx}",
-    "fix": "npm run check -- --fix"
+    "fix": "npm run check -- --fix",
+    "format": "prettier --write ."
   },
   "repository": {
     "type": "git",
