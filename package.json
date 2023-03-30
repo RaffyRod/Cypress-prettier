@@ -6,7 +6,7 @@
   "scripts": {
     "check": "prettier --write cypress/**/*.{js,ts,tsx}",
     "fix": "npm run check -- --fix",
-    "format": "prettier --write ."
+    "format": "prettier --write cypress/**/*.{js,ts,tsx}"
   },
   "repository": {
     "type": "git",
